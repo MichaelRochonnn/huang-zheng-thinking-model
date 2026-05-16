@@ -1,0 +1,270 @@
+{
+  "name": "huang-zheng-company-thinking",
+  "source_root": "/Users/michaelrochon/Desktop/黄铮",
+  "aliases": ["黄峥", "黄铮", "Huang Zheng", "Colin Huang"],
+  "nodes": [
+    {
+      "id": "person.huang_zheng",
+      "label": "黄峥",
+      "type": "person",
+      "summary": "Pinduoduo founder whose company-building logic centers on ordinary users, demand aggregation, supply-chain reform, benfen, common sense, and long-term public-institution building."
+    },
+    {
+      "id": "person.duan_yongping",
+      "label": "段永平",
+      "type": "person",
+      "summary": "Mentor/investor associated with benfen, normal mind, doing the right thing first, and long-term value."
+    },
+    {
+      "id": "person.buffett",
+      "label": "巴菲特",
+      "type": "person",
+      "summary": "Reference point for simple common sense, owner mindset, compounding, and treating money as a tool."
+    },
+    {
+      "id": "company.google",
+      "label": "Google",
+      "type": "company",
+      "summary": "Early operating school for Huang: mission before profit, culture, local execution difficulty, and domain limits."
+    },
+    {
+      "id": "company.pinduoduo",
+      "label": "拼多多",
+      "type": "company",
+      "summary": "New-commerce platform aiming to be a public institution serving broad users through value-for-money, interaction, demand aggregation, and supply-chain efficiency."
+    },
+    {
+      "id": "principle.benfen",
+      "label": "本分",
+      "type": "principle",
+      "summary": "Be trustworthy, do one's duty, return to the original purpose, do not take advantage, and first look inward when problems occur."
+    },
+    {
+      "id": "principle.common_sense",
+      "label": "常识与事实",
+      "type": "principle",
+      "summary": "Understand background and facts, then have the courage to judge with rational common sense rather than clever narratives."
+    },
+    {
+      "id": "principle.normal_mind",
+      "label": "平常心",
+      "type": "principle",
+      "summary": "Fast can be slow and slow can be fast; do the current thing well while keeping a distant direction."
+    },
+    {
+      "id": "principle.public_institution",
+      "label": "公众机构",
+      "type": "principle",
+      "summary": "The company should create public value, reduce personal color, mature its governance, and survive beyond the founder."
+    },
+    {
+      "id": "principle.unique_existence",
+      "label": "独特存在",
+      "type": "principle",
+      "summary": "A great company creates a new dimension and becomes hard to compare, rather than becoming a smaller copy of an incumbent."
+    },
+    {
+      "id": "model.people_first",
+      "label": "人为先",
+      "type": "market_model",
+      "summary": "New commerce starts from people, relations, scenes, and emotions rather than products, search, or traffic."
+    },
+    {
+      "id": "model.not_traffic",
+      "label": "不把人当流量",
+      "type": "market_model",
+      "summary": "Treating consumers as traffic/assets sold to merchants is fragile and misses real demand."
+    },
+    {
+      "id": "model.pin",
+      "label": "拼",
+      "type": "market_model",
+      "summary": "A mechanism that turns shared demand, social relation, timing, or interest into many-to-many matching and demand certainty."
+    },
+    {
+      "id": "model.demand_side_reform",
+      "label": "需求侧变革",
+      "type": "market_model",
+      "summary": "Demand-side aggregation, patience, and coordination can pull supply-side reform."
+    },
+    {
+      "id": "model.c2m",
+      "label": "C2M/反向定制",
+      "type": "market_model",
+      "summary": "Concentrated user demand enables factories/farms to produce differentiated batches and reach consumers more directly."
+    },
+    {
+      "id": "model.costco_disney",
+      "label": "Costco+Disney",
+      "type": "market_model",
+      "summary": "Future retail combines high value-for-money with joy, social interaction, entertainment, and virtual-real integration."
+    },
+    {
+      "id": "model.offset_competition",
+      "label": "错位竞争",
+      "type": "competition_model",
+      "summary": "Find a new scene or dimension instead of fighting incumbents for the same territory."
+    },
+    {
+      "id": "model.open_ecosystem",
+      "label": "开放生态",
+      "type": "competition_model",
+      "summary": "Create new choices and resist replacing one monopoly with another."
+    },
+    {
+      "id": "governance.anti_counterfeit",
+      "label": "打假/质量治理",
+      "type": "governance",
+      "summary": "Trust mechanisms must prevent bad actors from defining the platform."
+    },
+    {
+      "id": "governance.algorithmic_rules",
+      "label": "系统化规则",
+      "type": "governance",
+      "summary": "Reduce manual intervention, corruption, and arbitrary selection by moving rules and recommendation into systems."
+    },
+    {
+      "id": "governance.succession",
+      "label": "传承与合伙人机制",
+      "type": "governance",
+      "summary": "Make younger management and institutional governance carry the company beyond the founder."
+    }
+  ],
+  "edges": [
+    {
+      "source": "person.duan_yongping",
+      "relation": "teaches",
+      "target": "principle.benfen",
+      "evidence": "Interviews attribute benfen and doing the right thing first to Duan's influence.",
+      "sources": ["黄铮.pdf: 2017-04 interview", "黄铮.pdf: 2018-04 Caijing interview"]
+    },
+    {
+      "source": "person.buffett",
+      "relation": "reinforces",
+      "target": "principle.common_sense",
+      "evidence": "Huang describes the Buffett lunch as an encounter with simple/common-sense judgment.",
+      "sources": ["黄铮.pdf: 2018-04 Caijing interview"]
+    },
+    {
+      "source": "company.google",
+      "relation": "shaped",
+      "target": "person.huang_zheng",
+      "evidence": "Google taught mission/culture, financial freedom side effects, and limits of global internet companies in China.",
+      "sources": ["黄峥公众号文集（完整版）.pdf: 我的第一份工作"]
+    },
+    {
+      "source": "principle.benfen",
+      "relation": "anchors",
+      "target": "company.pinduoduo",
+      "evidence": "IPO letter defines Pinduoduo's value core as benfen and applies it to management's consumer focus.",
+      "sources": ["黄铮.pdf: 2018 IPO letter"]
+    },
+    {
+      "source": "model.people_first",
+      "relation": "opposes",
+      "target": "model.not_traffic",
+      "evidence": "Huang repeatedly contrasts people-first new commerce with treating consumers as traffic.",
+      "sources": ["黄铮.pdf: 2018 CCTV interview", "黄铮.pdf: 2019 shareholder letter"]
+    },
+    {
+      "source": "model.pin",
+      "relation": "creates",
+      "target": "model.demand_side_reform",
+      "evidence": "Pin aggregates scattered demand and provides time/volume certainty for supply-side response.",
+      "sources": ["黄峥公众号文集（完整版）.pdf: 市场多一点...", "黄铮.pdf: 2018 IPO letter"]
+    },
+    {
+      "source": "model.demand_side_reform",
+      "relation": "enables",
+      "target": "model.c2m",
+      "evidence": "Demand-side coordination can turn rigid mass production into smaller differentiated batches.",
+      "sources": ["黄峥公众号文集（完整版）.pdf: 市场多一点...", "黄铮.pdf: 2018 Caijing interview"]
+    },
+    {
+      "source": "model.c2m",
+      "relation": "supports",
+      "target": "model.costco_disney",
+      "evidence": "Cost efficiency/value-for-money is paired with joy and entertainment as the long-term retail form.",
+      "sources": ["黄铮.pdf: 2018 IPO letter", "黄铮.pdf: 2020 company letter"]
+    },
+    {
+      "source": "model.offset_competition",
+      "relation": "expresses",
+      "target": "principle.unique_existence",
+      "evidence": "Huang rejects being a small Alibaba and frames PDD/Taobao as different scenes.",
+      "sources": ["黄铮.pdf: 2018 Caijing interview"]
+    },
+    {
+      "source": "model.open_ecosystem",
+      "relation": "protects",
+      "target": "principle.public_institution",
+      "evidence": "2019 letter emphasizes new choices, openness in logistics/cloud/payment, and non-zero-sum competition.",
+      "sources": ["黄铮.pdf: 2019 shareholder letter"]
+    },
+    {
+      "source": "governance.anti_counterfeit",
+      "relation": "protects",
+      "target": "principle.benfen",
+      "evidence": "Anti-counterfeit and consumer compensation are treated as platform duty and trust preservation.",
+      "sources": ["黄铮.pdf: 2017-04 interview", "黄铮.pdf: 2018 merchant dispute response"]
+    },
+    {
+      "source": "governance.algorithmic_rules",
+      "relation": "reduces",
+      "target": "manual_corruption",
+      "evidence": "Huang links manual selection/recommendation to corruption risk and points toward algorithmic selection.",
+      "sources": ["黄铮.pdf: 2018 Caijing interview"]
+    },
+    {
+      "source": "governance.succession",
+      "relation": "implements",
+      "target": "principle.public_institution",
+      "evidence": "2020 company letter hands CEO role to younger management and frames PDD as not a personal tool.",
+      "sources": ["黄铮.pdf: 2020 company letter"]
+    }
+  ],
+  "alignment_heuristics": [
+    {
+      "id": "h1",
+      "name": "People before traffic",
+      "question": "Does the move understand people and scenes, or just acquire/monetize clicks?",
+      "strong_signal": "Product design reveals new scenes, relations, or emotional needs.",
+      "red_flag": "Success depends mainly on paid traffic resale or ad monetization."
+    },
+    {
+      "id": "h2",
+      "name": "Demand certainty",
+      "question": "Does the move turn scattered demand into supply-useful certainty?",
+      "strong_signal": "Shared timing, grouping, deposits, social trust, or interest clusters reduce supply uncertainty.",
+      "red_flag": "The feature is only a coupon/referral tactic."
+    },
+    {
+      "id": "h3",
+      "name": "Structural value-for-money",
+      "question": "Is low price caused by structural efficiency and quality improvement?",
+      "strong_signal": "Middle layers, waste, decision cost, or mismatch are reduced.",
+      "red_flag": "Price is subsidized, quality is sacrificed, or suppliers are squeezed."
+    },
+    {
+      "id": "h4",
+      "name": "Good-currency loop",
+      "question": "Do rules make good actors win and bad actors lose?",
+      "strong_signal": "Anti-counterfeit, refund, merchant quality, and anti-corruption mechanisms improve with scale.",
+      "red_flag": "Fake goods, fake orders, low quality, or internal rent-seeking are tolerated as growth costs."
+    },
+    {
+      "id": "h5",
+      "name": "Offset competition",
+      "question": "Is the company opening a new dimension instead of fighting old wars?",
+      "strong_signal": "A new use scene coexists with incumbents and expands the category.",
+      "red_flag": "The strategy is framed as territory capture, exclusivity, or becoming a smaller incumbent."
+    },
+    {
+      "id": "h6",
+      "name": "Public institution",
+      "question": "Does governance mature beyond founder charisma?",
+      "strong_signal": "Succession, transparency, partner mechanisms, and social responsibility compound.",
+      "red_flag": "The founder remains the only immune system or the company is used for personal image."
+    }
+  ]
+}
