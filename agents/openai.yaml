@@ -1,0 +1,6 @@
+interface:
+  display_name: "黄峥企业思维"
+  short_description: "用黄峥式经营框架判断企业战略与动向"
+  default_prompt: "Use $huang-zheng-company-thinking to judge whether Pinduoduo’s latest strategy fits Huang Zheng’s company-building logic."
+policy:
+  allow_implicit_invocation: true
